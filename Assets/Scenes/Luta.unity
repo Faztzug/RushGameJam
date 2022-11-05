@@ -156,11 +156,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ComponentVersion: 1
-  m_AssetsPPU: 100
+  m_AssetsPPU: 24
   m_RefResolutionX: 255
   m_RefResolutionY: 240
-  m_CropFrame: 0
-  m_GridSnapping: 0
+  m_CropFrame: 2
+  m_GridSnapping: 1
   m_UpscaleRT: 0
   m_PixelSnapping: 0
   m_CropFrameX: 0
@@ -227,9 +227,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 0.029411767
     width: 1
-    height: 1
+    height: 0.94117653
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
