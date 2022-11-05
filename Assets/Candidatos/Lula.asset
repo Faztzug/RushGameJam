@@ -12,13 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d6db3d7fb7f3d7488709413ce720bdd, type: 3}
   m_Name: Lula
   m_EditorClassIdentifier: 
-  nome: 
-  partido: 
-  numero: 0
+  nome: Lula
+  partido: PT
+  numeroDoPartido: 13
   spriteDeFrente: {fileID: 0}
   spriteDeCostas: {fileID: 0}
-  maxHP: 0
-  startHP: 0
+  maxHP: 9
+  startHP: 9
+  iniciativa: 2
+  forca: 3
+  forcaEspecial: 4
+  defesa: 8
+  defesaEspecial: 10
   movimentos: []
   fraseDeInicio: 
   fraseDeVitoria: 
