@@ -7,11 +7,16 @@ public class CandidatoData : ScriptableObject
 {
     public string nome;
     public string partido;
-    public int numero;
+    public int numeroDoPartido;
     public Sprite spriteDeFrente;
     public Sprite spriteDeCostas;
     public int maxHP;
     public int startHP;
+    public int iniciativa;
+    public int forca;
+    public int forcaEspecial;
+    public int defesa;
+    public int defesaEspecial;
     public List<Movimentos> movimentos;
     public string fraseDeInicio;
     public string fraseDeVitoria;
