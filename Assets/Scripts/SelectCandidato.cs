@@ -14,7 +14,7 @@ public class SelectCandidato : MonoBehaviour
 
     public void SelectBolsonaro()
     {
-        GameState.candidato = Candidato.Lula;
+        GameState.candidato = Candidato.Bolsonaro;
         SceneManager.LoadScene("Luta");
     }
 

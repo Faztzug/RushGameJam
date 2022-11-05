@@ -11,11 +11,13 @@ public enum Candidato
 }
 public class GameState : MonoBehaviour
 {
-    
     private static GameState gameState;
     private GameState() { }
     public static GameState GameStateInstance => gameState;
-    public static Candidato candidato;
+    public Candidato selectedCandidato;
+    public static Candidato candidato 
+    { get => gameState.selectedCandidato; 
+    set => gameState.selectedCandidato = value;}
 
     private void Awake() 
     {
