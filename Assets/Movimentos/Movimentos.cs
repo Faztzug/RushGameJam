@@ -8,20 +8,31 @@ public enum Alvo
     SiMesmo,
 }
 
-public class Movimentos : MonoBehaviour
+[CreateAssetMenu(fileName = "Movimento", menuName = "ScriptableObjects/Novo Movimento", order = 1)]
+public class Movimentos : ScriptableObject
 {
     public string nome;
     public int poder;
     public Alvo alvoDoEfeito;
-    public int usosAtuais;
+    [HideInInspector] public int usosAtuais;
     public int usosMaximos;
-    public Transform proprioTransform;
-    public Transform inimigoTransform;
+    [HideInInspector] public Transform proprioTransform;
+    [HideInInspector] public Transform inimigoTransform;
     public GameObject animSiMesmo;
     public GameObject animNoInimigo;
+    protected CandidatoInGame target;
 
-    public virtual void MoveEffect() 
+    void Start()
+    {
+        usosAtuais = usosMaximos;
+    }
+
+    public virtual void MoveEffect(CandidatoInGame candidato) 
     { 
+        proprioTransform = candidato.transform;
+        inimigoTransform = candidato.inimigo.transform;
+        if(alvoDoEfeito == Alvo.SiMesmo) target = candidato;
+        else target = candidato.inimigo;
         if(animSiMesmo) 
         {
             var anim = GameObject.Instantiate(animSiMesmo, proprioTransform.position, Quaternion.identity);
@@ -32,5 +43,6 @@ public class Movimentos : MonoBehaviour
             var anim = GameObject.Instantiate(animNoInimigo, inimigoTransform.position, Quaternion.identity);
             Destroy(anim, 10f);
         }
+        usosAtuais--;
     }
 }
