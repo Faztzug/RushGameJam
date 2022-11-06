@@ -30,4 +30,12 @@ public class CandidatoInGame : MonoBehaviour
         defesaEspecial = data.defesaEspecial;
         movimentos = data.movimentos;
     }
+
+    public void DamageHealth(int value, bool isEspecial = false)
+    {
+        if(isEspecial) value += defesaEspecial;
+        else value += defesa;
+        if(value > 0) value = 0;
+        currentHP -= value;
+    }
 }

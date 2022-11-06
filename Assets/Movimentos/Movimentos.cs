@@ -8,8 +8,7 @@ public enum Alvo
     SiMesmo,
 }
 
-[CreateAssetMenu(fileName = "Movimento", menuName = "ScriptableObjects/Novo Movimento", order = 1)]
-public class Movimentos : ScriptableObject
+public class Movimentos : MonoBehaviour
 {
     public string nome;
     public int poder;

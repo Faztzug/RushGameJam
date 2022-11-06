@@ -18,6 +18,11 @@ public class GameState : MonoBehaviour
     public static Candidato candidato 
     { get => gameState.selectedCandidato; 
     set => gameState.selectedCandidato = value;}
+    
+    public static Movimentos lulaMove;
+    public static Movimentos bolsonaroMove;
+    public static CandidatoInGame Lula;
+    public static CandidatoInGame Bolsonaro;
 
     private void Awake() 
     {

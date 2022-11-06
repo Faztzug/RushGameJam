@@ -2,17 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TresOitao : MonoBehaviour
+public class TresOitao : Movimentos
 {
-    // Start is called before the first frame update
-    void Start()
+    public override void MoveEffect(CandidatoInGame candidato)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if(usosAtuais <= 0) return;
+        base.MoveEffect(candidato);
+        int dmg = -(candidato.forcaEspecial * poder/100);
+        target.DamageHealth(dmg, isEspecial: true);
     }
 }

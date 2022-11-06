@@ -17,14 +17,15 @@ MonoBehaviour:
   numeroDoPartido: 13
   spriteDeFrente: {fileID: 0}
   spriteDeCostas: {fileID: 0}
-  maxHP: 9
+  maxHP: 10
   startHP: 9
   iniciativa: 2
-  forca: 3
-  forcaEspecial: 4
-  defesa: 8
-  defesaEspecial: 10
-  movimentos: []
+  forca: 4
+  forcaEspecial: 2
+  defesa: 3
+  defesaEspecial: 2
+  movimentos:
+  - {fileID: 6253830855080402002, guid: 6ea6541949c6e844081569ea0fd43dd7, type: 3}
   fraseDeInicio: 
   fraseDeVitoria: 
   soms: []
