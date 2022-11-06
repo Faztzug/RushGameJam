@@ -19,6 +19,11 @@ public class GameState : MonoBehaviour
     public static Candidato candidato 
     { get => gameState.selectedCandidato; 
     set => gameState.selectedCandidato = value;}
+
+    public Candidato candidatoVencedor;
+    public static Candidato CandidatoVencedor
+    { get => gameState.candidatoVencedor; 
+    set => gameState.candidatoVencedor = value;}
     
     public static TurnSystem turnSystem;
     public static Movimentos lulaMove;

@@ -33,5 +33,5 @@ MonoBehaviour:
   - {fileID: -4815957782880307470, guid: df48133c8ade91444ad122331d164f31, type: 3}
   - {fileID: -8622168803869611318, guid: 4093e98973563e8498c9184e392c2ef9, type: 3}
   fraseDeInicio: 
-  fraseDeVitoria: 
+  fraseDeVitoria: "Nossa bandeira jamais ser\xE1 vermelha, Talkey petralhada?"
   soms: []
