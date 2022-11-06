@@ -56,7 +56,7 @@ MonoBehaviour:
   animSiMesmo: {fileID: 8911602752878794439, guid: 3dcd52fc5d9d76e4e96f52f1df291b49, type: 3}
   animNoInimigo: {fileID: 0}
   tocarEsseSomAoUsar:
-    clip: {fileID: 8300000, guid: bc8146107c5ef564687a0e1ebdf47302, type: 3}
+    clip: {fileID: 8300000, guid: c15518846825ad041b32cceb478b1631, type: 3}
     name: 
     volume: 1
     pitch: 1
