@@ -21,6 +21,7 @@ public class CandidatoInGame : MonoBehaviour
     public GameObject moveToUsePrefab;
     public TextMeshProUGUI HPText;
     public bool imunidade;
+    [HideInInspector] public AudioSource audioSource;
 
     void Start()
     {
@@ -34,6 +35,7 @@ public class CandidatoInGame : MonoBehaviour
         defesa = data.defesa;
         defesaEspecial = data.defesaEspecial;
         movimentos = data.movimentos;
+        audioSource = GetComponent<AudioSource>();
 
         foreach (var move in data.movimentos) move.SetUses();
 

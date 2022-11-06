@@ -25,6 +25,7 @@ public class Movimentos : MonoBehaviour
     public GameObject animNoInimigo;
     protected CandidatoInGame target;
     protected int damage;
+    public Sound tocarEsseSomAoUsar;
 
     public void SetUses()
     {
@@ -62,6 +63,7 @@ public class Movimentos : MonoBehaviour
         if(isEspecial) damage = candidato.forcaEspecial * poder/100;
         else damage = candidato.forca * poder/100;
 
+        PlaySound(candidato);
 
         if(animSiMesmo) 
         {
@@ -74,5 +76,13 @@ public class Movimentos : MonoBehaviour
             Destroy(anim, 10f);
         }
         usosAtuais--;
+    }
+
+    private void PlaySound(CandidatoInGame candidato)
+    {
+        if(tocarEsseSomAoUsar != null && tocarEsseSomAoUsar.clip != null) 
+        {
+            tocarEsseSomAoUsar.PlayOn(candidato.audioSource);
+        }
     }
 }
