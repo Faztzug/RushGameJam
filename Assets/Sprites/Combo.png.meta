@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DoceDeLeite1
+      name: Combo_0
       rect:
         serializedVersion: 2
         x: 48
@@ -130,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb81cbb15373b054898c0fb51df42aa1
-      internalID: 905618440
+      spriteID: 3311c75637412e64cacf25c4fbc08ea8
+      internalID: 1977052391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoceDeLeite2
+      name: Combo_1
       rect:
         serializedVersion: 2
         x: 67
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1a4201771406d34e8fd676d7d6cea87
-      internalID: 1422887353
+      spriteID: 8ca716474bafe3442989d432b22d54e8
+      internalID: -355338163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DoceDeLeite3
+      name: Combo_2
       rect:
         serializedVersion: 2
         x: 90
@@ -172,14 +172,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c04eeabf3ecd5143a7005900e36c223
-      internalID: -1652544400
+      spriteID: b6f5320300c84df4685cf55862897c42
+      internalID: 1129293895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pow
+      name: Combo_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 197
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d652ad48de3f27e4c8a8d9009501371e
+      internalID: -1530539679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_4
       rect:
         serializedVersion: 2
         x: 13
@@ -193,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e28fd8252232ebe4cb2c2375c6be05eb
-      internalID: 99961364
+      spriteID: 228fedba9ca581c4295622e6b50ca778
+      internalID: -603544870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "tr\xEAs_oit\xE3o"
+      name: Combo_5
       rect:
         serializedVersion: 2
         x: 42
@@ -214,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10b458751973fa44d93a614eadef2e2b
-      internalID: -1253734297
+      spriteID: 8c7c28dc62d950746b53fa009f58b7f6
+      internalID: -266571271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cerveja
+      name: Combo_6
       rect:
         serializedVersion: 2
         x: 71
@@ -235,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcccb14223a1857459074494951f4d95
-      internalID: -971443963
+      spriteID: f899ab6bde920b548bf31f9f5215d79e
+      internalID: 1825118003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: picanha
+      name: Combo_7
       rect:
         serializedVersion: 2
         x: 94
@@ -256,14 +277,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0418d0f8b78598341a2543b58d436d00
-      internalID: 965829022
+      spriteID: a38b557c2b95f8e498ad13eecf173ec6
+      internalID: 434734409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lula_faz_o_L
+      name: Combo_8
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 200
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9d392d8911cb1438f2fc483754be94
+      internalID: 659582500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_9
       rect:
         serializedVersion: 2
         x: 13
@@ -277,14 +319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb35c40fd43c554429d1abce1b8af8e2
-      internalID: -1691465118
+      spriteID: b07d487ce1a85054889b117ccdb35aa6
+      internalID: -957264755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lula_dano
+      name: Combo_10
       rect:
         serializedVersion: 2
         x: 50
@@ -298,14 +340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a741500d43eec444380c7cf3b97b4bab
-      internalID: -1122447758
+      spriteID: a45c7976281b00042b150bc4083e7d9c
+      internalID: -260140854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lula
+      name: Combo_11
       rect:
         serializedVersion: 2
         x: 86
@@ -319,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d09b6269731ed04a8448e37ce9e2787
-      internalID: -469881867
+      spriteID: 77c0e63e0a103444cb899b0afbb5b43e
+      internalID: -975046712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Lula_feij\xE3o_puro"
+      name: Combo_12
       rect:
         serializedVersion: 2
         x: 115
@@ -340,14 +382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0d2dffeabb8a71418a874fb1f6d8589
-      internalID: -613799039
+      spriteID: 622bc9d6d1d5e3644a88d9b5c98e06c4
+      internalID: -248476725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lula_choro
+      name: Combo_13
       rect:
         serializedVersion: 2
         x: 148
@@ -361,8 +403,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03b5991e3d241fe4882c81d2c28cc45c
-      internalID: -884897873
+      spriteID: 389a5fe6a139d6840b675c7e58f6eacb
+      internalID: 794151184
       vertices: []
       indices: 
       edges: []
@@ -378,18 +420,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Lula_choro: -884897873
-      Lula: -469881867
-      DoceDeLeite2: 1422887353
-      picanha: 965829022
-      "tr\xEAs_oit\xE3o": -1253734297
-      Lula_faz_o_L: -1691465118
-      DoceDeLeite3: -1652544400
-      pow: 99961364
-      cerveja: -971443963
-      Lula_dano: -1122447758
-      DoceDeLeite1: 905618440
-      "Lula_feij\xE3o_puro": -613799039
+      Combo_11: -975046712
+      Combo_12: -248476725
+      Combo_8: 659582500
+      Combo_10: -260140854
+      Combo_9: -957264755
+      Combo_5: -266571271
+      Combo_3: -1530539679
+      Combo_0: 1977052391
+      Combo_2: 1129293895
+      Combo_4: -603544870
+      Combo_13: 794151184
+      Combo_7: 434734409
+      Combo_6: 1825118003
+      Combo_1: -355338163
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
