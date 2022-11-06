@@ -33,7 +33,7 @@ MonoBehaviour:
   - {fileID: -1439831210112603205, guid: 3befc386558d1e6429653b5d601e29e3, type: 3}
   - {fileID: -8622168803869611318, guid: c5d2d0023051b0348a587f4e912e21b4, type: 3}
   fraseDeInicio: 
-  fraseDeVitoria: "Fa\xE7a o L, fa\xE7a o L imediatamente meu camarada!"
+  fraseDeVitoria: "Fa\xE7a o L, fa\xE7a o L imediatamente meu companheiro!"
   somAoLevarDano:
     clip: {fileID: 8300000, guid: f5337f1d444599145be24b7b76c6ff7e, type: 3}
     name: 
