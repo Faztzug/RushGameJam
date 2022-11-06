@@ -50,8 +50,11 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 1606458364, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: 1925280495, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  - {fileID: -292188237, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: -260140854, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  - {fileID: -248476725, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: 659582500, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: -957264755, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: 1129293895, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
@@ -61,16 +64,16 @@ SpriteAtlas:
   - {fileID: 1825118003, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: 434734409, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: -266571271, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
-  - {fileID: 794151184, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
-  - {fileID: -248476725, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: 472212537, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
-  - {fileID: 1606458364, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
-  - {fileID: -292188237, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: -975046712, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  - {fileID: 794151184, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: -603544870, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   m_PackedSpriteNamesToIndex:
+  - lula_iddle
   - Urna
+  - lula_choro
   - Sigilo
+  - lula_L
   - Combo_8
   - Combo_9
   - Combo_2
@@ -80,12 +83,9 @@ SpriteAtlas:
   - Combo_6
   - Combo_7
   - Combo_5
-  - Combo_13
-  - Combo_12
-  - Combo_15
-  - Combo_14
-  - Combo_16
+  - lula_maromba
   - Censura
+  - lula_dano
   - SocialCredit
   m_RenderDataMap: {}
   m_Tag: Lula
