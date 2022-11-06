@@ -55,3 +55,11 @@ MonoBehaviour:
   inimigoTransform: {fileID: 0}
   animSiMesmo: {fileID: 8911602752878794439, guid: 3dcd52fc5d9d76e4e96f52f1df291b49, type: 3}
   animNoInimigo: {fileID: 0}
+  tocarEsseSomAoUsar:
+    clip: {fileID: 8300000, guid: bc8146107c5ef564687a0e1ebdf47302, type: 3}
+    name: 
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    audioSource: {fileID: 0}
