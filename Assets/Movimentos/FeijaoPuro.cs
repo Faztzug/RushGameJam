@@ -9,6 +9,7 @@ public class FeijaoPuro : Movimentos
     {
         if(usosAtuais <= 0) return;
         base.MoveEffect(candidato);
+        candidato.inimigo.DamageHealth(candidato.forca);
         target.forca += poder;
     }
 }
