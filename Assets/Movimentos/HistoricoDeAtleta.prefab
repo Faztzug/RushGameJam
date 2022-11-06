@@ -53,7 +53,7 @@ MonoBehaviour:
   usosMaximos: 5
   proprioTransform: {fileID: 0}
   inimigoTransform: {fileID: 0}
-  animSiMesmo: {fileID: 0}
+  animSiMesmo: {fileID: 4857347268191408916, guid: ed4153f30ac4986498d747b5affcfd65, type: 3}
   animNoInimigo: {fileID: 0}
   tocarEsseSomAoUsar:
     clip: {fileID: 0}

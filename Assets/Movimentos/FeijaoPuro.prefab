@@ -54,5 +54,5 @@ MonoBehaviour:
   usosMaximos: 30
   proprioTransform: {fileID: 0}
   inimigoTransform: {fileID: 0}
-  animSiMesmo: {fileID: 0}
+  animSiMesmo: {fileID: 7406258218775814334, guid: afa5cd31ae284ec479741970d95fc1c7, type: 3}
   animNoInimigo: {fileID: 0}

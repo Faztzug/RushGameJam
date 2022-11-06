@@ -35,7 +35,7 @@ SpriteAtlas:
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
       serializedVersion: 2
-      padding: 2
+      padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 0
@@ -50,35 +50,43 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: -957264755, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  - {fileID: 1925280495, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  - {fileID: -260140854, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: 659582500, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  - {fileID: -957264755, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: 1129293895, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: -1530539679, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: 1977052391, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: -355338163, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: 1825118003, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: 434734409, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
-  - {fileID: -603544870, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: -266571271, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: 794151184, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
-  - {fileID: -975046712, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
-  - {fileID: -260140854, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   - {fileID: -248476725, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  - {fileID: 472212537, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  - {fileID: 1606458364, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  - {fileID: -292188237, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  - {fileID: -975046712, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  - {fileID: -603544870, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   m_PackedSpriteNamesToIndex:
-  - Lula_L
+  - Urna
+  - Sigilo
   - Combo_8
+  - Combo_9
   - Combo_2
   - Combo_3
   - Combo_0
   - Combo_1
   - Combo_6
   - Combo_7
-  - Combo_4
   - Combo_5
-  - Lula_choro
-  - Combo_11
-  - Combo_10
+  - Combo_13
   - Combo_12
+  - Combo_15
+  - Combo_14
+  - Combo_16
+  - Censura
+  - SocialCredit
   m_RenderDataMap: {}
   m_Tag: Lula
   m_IsVariant: 0

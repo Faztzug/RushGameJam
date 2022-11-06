@@ -124,7 +124,7 @@ TextureImporter:
         width: 12
         height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,7 +145,7 @@ TextureImporter:
         width: 18
         height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,7 +166,7 @@ TextureImporter:
         width: 19
         height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,7 +187,7 @@ TextureImporter:
         width: 12
         height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,15 +200,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Combo_4
+      name: SocialCredit
       rect:
         serializedVersion: 2
-        x: 13
-        y: 189
-        width: 24
-        height: 24
+        x: 169
+        y: 197
+        width: 25
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -224,12 +224,12 @@ TextureImporter:
       name: Combo_5
       rect:
         serializedVersion: 2
-        x: 42
+        x: 13
         y: 189
-        width: 23
-        height: 20
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -245,12 +245,12 @@ TextureImporter:
       name: Combo_6
       rect:
         serializedVersion: 2
-        x: 71
+        x: 42
         y: 189
-        width: 16
+        width: 23
         height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -266,12 +266,12 @@ TextureImporter:
       name: Combo_7
       rect:
         serializedVersion: 2
-        x: 94
+        x: 71
         y: 189
         width: 16
-        height: 15
+        height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -287,12 +287,12 @@ TextureImporter:
       name: Combo_8
       rect:
         serializedVersion: 2
-        x: 134
-        y: 200
-        width: 31
-        height: 10
+        x: 94
+        y: 189
+        width: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -305,15 +305,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lula_L
+      name: Combo_9
       rect:
         serializedVersion: 2
-        x: 13
-        y: 146
-        width: 28
-        height: 30
+        x: 134
+        y: 200
+        width: 31
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -326,15 +326,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Combo_10
+      name: Sigilo
       rect:
         serializedVersion: 2
-        x: 50
-        y: 145
-        width: 27
-        height: 33
+        x: 131
+        y: 184
+        width: 23
+        height: 9
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -347,15 +347,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Combo_11
+      name: Censura
       rect:
         serializedVersion: 2
-        x: 86
-        y: 145
-        width: 23
-        height: 31
+        x: 161
+        y: 183
+        width: 40
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -371,12 +371,12 @@ TextureImporter:
       name: Combo_12
       rect:
         serializedVersion: 2
-        x: 114
-        y: 145
+        x: 13
+        y: 146
         width: 28
-        height: 31
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -389,15 +389,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lula_choro
+      name: Combo_13
       rect:
         serializedVersion: 2
-        x: 148
+        x: 50
         y: 145
-        width: 23
-        height: 31
+        width: 27
+        height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -405,6 +405,90 @@ TextureImporter:
       bones: []
       spriteID: 389a5fe6a139d6840b675c7e58f6eacb
       internalID: 794151184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_14
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 145
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf54c9152c8a06469469094ab087da8
+      internalID: 1606458364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_15
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 145
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f371eb469007cd24aa58641b1c7ca816
+      internalID: 472212537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_16
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 145
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c71298895c44fc418c903ebdd0b7064
+      internalID: -292188237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Urna
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 152
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b79de26ac09b649b589a62c30fb648
+      internalID: 1925280495
       vertices: []
       indices: 
       edges: []
@@ -420,20 +504,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Combo_11: -975046712
       Combo_12: -248476725
+      Sigilo: -260140854
       Combo_8: 659582500
-      Lula_choro: 794151184
-      Combo_10: -260140854
-      Lula_L: -957264755
+      Combo_16: -292188237
+      SocialCredit: -603544870
+      Censura: -975046712
+      Combo_9: -957264755
       Combo_5: -266571271
+      Combo_15: 472212537
+      Urna: 1925280495
       Combo_3: -1530539679
       Combo_0: 1977052391
       Combo_2: 1129293895
-      Combo_4: -603544870
+      Combo_13: 794151184
       Combo_7: 434734409
       Combo_6: 1825118003
       Combo_1: -355338163
+      Combo_14: 1606458364
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
