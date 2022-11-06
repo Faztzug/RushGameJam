@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SelecioneSeuCandidato.unity
+    guid: 6447f83b78a6be84aa56f6e1a4c122fc
+  - enabled: 1
     path: Assets/Scenes/Luta.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 2ce7ebab1a6a9c34887d2ef048798551
   m_configObjects: {}

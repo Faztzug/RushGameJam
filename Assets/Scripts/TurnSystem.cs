@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System.Threading.Tasks;
+using UnityEngine.SceneManagement;
 
 public class TurnSystem : MonoBehaviour
 {
@@ -38,9 +39,19 @@ public class TurnSystem : MonoBehaviour
         currentTurn++;
         Debug.Log("Next Turn: " + currentTurn);
         textLog.text = "";
+
         actionsHolder.SetActive(true);
         GameState.Lula.IAMove();
         GameState.Bolsonaro.IAMove();
         if(GameState.candidato == Candidato.NULL) GameState.FinishMovesChoice();
+    }
+    
+    public void CheckGameOver()
+    {
+        if(GameState.Lula.currentHP <= 0) GameState.CandidatoVencedor = Candidato.Bolsonaro;
+        else if(GameState.Bolsonaro.currentHP <= 0) GameState.CandidatoVencedor = Candidato.Lula;
+        else return;
+        SceneManager.LoadScene("GameOver");
+
     }
 }

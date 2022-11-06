@@ -54,6 +54,8 @@ public class GameState : MonoBehaviour
             bolsonaroMove.MoveEffect(Bolsonaro);
             await turnSystem.MoveResult(bolsonaroMove.effectDescription.ToUpper());
 
+            turnSystem.CheckGameOver();
+
             await turnSystem.UsedMove((Lula.nome + " usou " + lulaMove.nome).ToUpper());
             lulaMove.MoveEffect(Lula);
             await turnSystem.MoveResult(lulaMove.effectDescription.ToUpper());
@@ -65,10 +67,14 @@ public class GameState : MonoBehaviour
             lulaMove.MoveEffect(Lula);
             await turnSystem.MoveResult(lulaMove.effectDescription.ToUpper());
             
+            turnSystem.CheckGameOver();
+            
             await turnSystem.UsedMove((Bolsonaro.nome + " usou " + bolsonaroMove.nome).ToUpper());
             bolsonaroMove.MoveEffect(Bolsonaro);
             await turnSystem.MoveResult(bolsonaroMove.effectDescription.ToUpper());
         }
+        
+        turnSystem.CheckGameOver();
         turnSystem.NextTurn();
     }
 }

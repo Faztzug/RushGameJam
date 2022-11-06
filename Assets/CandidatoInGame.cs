@@ -73,7 +73,7 @@ public class CandidatoInGame : MonoBehaviour
         if(value > 0 || imunidade) value = 0;
         currentHP += value;
         HPText.text = "HP " + currentHP+"/"+data.maxHP;
-        animator.SetTrigger("Dano");
+        if(!imunidade) animator.SetTrigger("Dano");
     }
     public void GainHealth(int value)
     {
