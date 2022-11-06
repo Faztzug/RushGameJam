@@ -27,6 +27,11 @@ MonoBehaviour:
   defesaEspecial: 2
   movimentos:
   - {fileID: -2367339345724563207, guid: b78a17b4171366d4a9c1ea827c6f8b23, type: 3}
+  - {fileID: -423370546979139156, guid: a431574dd05bcde448556b611599af2c, type: 3}
+  - {fileID: 5982484224112891428, guid: 577d2e7880a8125499a36baf790b7f0f, type: 3}
+  - {fileID: -5519015901932274829, guid: 899398815be522045ba2f630c6ae3366, type: 3}
+  - {fileID: -4815957782880307470, guid: df48133c8ade91444ad122331d164f31, type: 3}
+  - {fileID: -8622168803869611318, guid: 4093e98973563e8498c9184e392c2ef9, type: 3}
   fraseDeInicio: 
   fraseDeVitoria: 
   soms: []

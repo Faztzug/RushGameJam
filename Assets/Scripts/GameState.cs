@@ -40,29 +40,30 @@ public class GameState : MonoBehaviour
 
     public static async void FinishMovesChoice()
     {
+        bolsonaroMove.QuickEffect(Bolsonaro);
+        lulaMove.QuickEffect(Lula);
 
         if(Bolsonaro.iniciativa > Lula.iniciativa)
         {
             await turnSystem.UsedMove((Bolsonaro.nome + " usou " + bolsonaroMove.nome).ToUpper());
             bolsonaroMove.MoveEffect(Bolsonaro);
-            await turnSystem.MoveResult("RESULTADO");
+            await turnSystem.MoveResult(bolsonaroMove.effectDescription.ToUpper());
 
             await turnSystem.UsedMove((Lula.nome + " usou " + lulaMove.nome).ToUpper());
             lulaMove.MoveEffect(Lula);
-            await turnSystem.MoveResult("RESULTADO");
+            await turnSystem.MoveResult(lulaMove.effectDescription.ToUpper());
         }
         else
         {
 
             await turnSystem.UsedMove((Lula.nome + " usou " + lulaMove.nome).ToUpper());
             lulaMove.MoveEffect(Lula);
-            await turnSystem.MoveResult("RESULTADO");
+            await turnSystem.MoveResult(lulaMove.effectDescription.ToUpper());
             
             await turnSystem.UsedMove((Bolsonaro.nome + " usou " + bolsonaroMove.nome).ToUpper());
             bolsonaroMove.MoveEffect(Bolsonaro);
-            await turnSystem.MoveResult("RESULTADO");
+            await turnSystem.MoveResult(bolsonaroMove.effectDescription.ToUpper());
         }
-        await Task.Delay(2000);
         turnSystem.NextTurn();
     }
 }

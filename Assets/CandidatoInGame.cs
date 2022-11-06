@@ -20,6 +20,7 @@ public class CandidatoInGame : MonoBehaviour
     public Transform actionsHolder;
     public GameObject moveToUsePrefab;
     public TextMeshProUGUI HPText;
+    public bool imunidade;
 
     void Start()
     {
@@ -47,20 +48,32 @@ public class CandidatoInGame : MonoBehaviour
         }
         else
         {
-            var validMoves = data.movimentos.FindAll(m => m.usosAtuais > 0);
-            var rng = Random.Range(0, validMoves.Count);
-            if(data.candidatoEnum == Candidato.Bolsonaro) GameState.bolsonaroMove = validMoves[rng];
-            if(data.candidatoEnum == Candidato.Lula) GameState.lulaMove = validMoves[rng];
+            
         }
+    }
+
+    public void IAMove()
+    {
+        imunidade = false;
+        var validMoves = data.movimentos.FindAll(m => m.usosAtuais > 0);
+        var rng = Random.Range(0, validMoves.Count);
+        if(data.candidatoEnum == Candidato.Bolsonaro) GameState.bolsonaroMove = validMoves[rng];
+        if(data.candidatoEnum == Candidato.Lula) GameState.lulaMove = validMoves[rng];
     }
 
     public void DamageHealth(int value, bool isEspecial = false)
     {
+        if(value > 0) value = -value;
         if(isEspecial) value += defesaEspecial;
         else value += defesa;
-        if(value > 0) value = 0;
-        Debug.Log("value " + value);
+        if(value > 0 || imunidade) value = 0;
         currentHP += value;
+        HPText.text = "HP " + currentHP+"/"+data.maxHP;
+    }
+    public void GainHealth(int value)
+    {
+        currentHP += value;
+        if(currentHP > data.maxHP) currentHP = data.maxHP;
         HPText.text = "HP " + currentHP+"/"+data.maxHP;
     }
 }

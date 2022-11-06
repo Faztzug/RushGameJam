@@ -9,8 +9,6 @@ public class TresOitao : Movimentos
     {
         if(usosAtuais <= 0) return;
         base.MoveEffect(candidato);
-        int dmg = candidato.forcaEspecial * poder/100;
-        Debug.Log("dmg " + dmg);
-        target.DamageHealth(-dmg, isEspecial: true);
+        target.DamageHealth(-damage, isEspecial);
     }
 }

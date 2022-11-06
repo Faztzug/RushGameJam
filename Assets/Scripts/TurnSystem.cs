@@ -24,14 +24,13 @@ public class TurnSystem : MonoBehaviour
     {
         actionsHolder.SetActive(false);
         textLog.text = moveText;
-        return Task.Delay(1000);
+        return Task.Delay(4000);
     }
 
     public Task MoveResult(string moveResult)
     {
-        
         textLog.text = moveResult;
-        return Task.Delay(1000);
+        return Task.Delay(4000);
     }
 
     public void NextTurn()
@@ -40,5 +39,8 @@ public class TurnSystem : MonoBehaviour
         Debug.Log("Next Turn: " + currentTurn);
         textLog.text = "";
         actionsHolder.SetActive(true);
+        GameState.Lula.IAMove();
+        GameState.Bolsonaro.IAMove();
+        if(GameState.candidato == Candidato.NULL) GameState.FinishMovesChoice();
     }
 }

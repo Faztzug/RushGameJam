@@ -644,7 +644,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &272704347
 GameObject:
@@ -1173,6 +1173,7 @@ MonoBehaviour:
   actionsHolder: {fileID: 1805907838}
   moveToUsePrefab: {fileID: 4623153291549177913, guid: 44ec91ae360b95f41b958e764b44ff64, type: 3}
   HPText: {fileID: 365410219}
+  imunidade: 0
 --- !u!1 &1041483982
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,7 +1326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 454701831149507822, guid: 237b4920d1c14d544a2d896309733994, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 454701831149507822, guid: 237b4920d1c14d544a2d896309733994, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1428,8 +1429,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet,
-    lorem eget pharetra pulvinar, purus massa mattis ante, interdum elementum nunc
-    tellus id mauris.
+    lorem eget pharetra pulvinar, purus massa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e9f9ba82b8a695b43ad332c1a75d99d6, type: 2}
   m_sharedMaterial: {fileID: -5139215698420869362, guid: e9f9ba82b8a695b43ad332c1a75d99d6, type: 2}
@@ -1456,10 +1456,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 53.55
-  m_fontSizeBase: 78
+  m_fontSize: 68
+  m_fontSizeBase: 68
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 432.86
   m_fontStyle: 0
@@ -1867,6 +1867,7 @@ MonoBehaviour:
   actionsHolder: {fileID: 1805907838}
   moveToUsePrefab: {fileID: 4623153291549177913, guid: 44ec91ae360b95f41b958e764b44ff64, type: 3}
   HPText: {fileID: 113980125}
+  imunidade: 0
 --- !u!1 &2055433377
 GameObject:
   m_ObjectHideFlags: 0

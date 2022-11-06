@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Threading.Tasks;
 
-public class FeijaoPuro : Movimentos
+public class LeiteCondensado : Movimentos
 {
     public override void MoveEffect(CandidatoInGame candidato)
     {
         if(usosAtuais <= 0) return;
         base.MoveEffect(candidato);
-        candidato.inimigo.DamageHealth(-candidato.forca);
-        target.forca += poder;
+        target.GainHealth(1);
+        target.forcaEspecial += 1;
+        target.iniciativa += 1;
     }
 }

@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2527499575098011047}
-  - component: {fileID: 6253830855080402002}
+  - component: {fileID: -4815957782880307470}
   m_Layer: 0
-  m_Name: FeijaoPuro
+  m_Name: HistoricoDeAtleta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6253830855080402002
+--- !u!114 &-4815957782880307470
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,17 +41,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2990670816609740332}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3edb39782aba81843be84c758335b8c3, type: 3}
+  m_Script: {fileID: 11500000, guid: 51dc58f84abf6f741b2bbd429e1f652a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: "Feij\xE3o Puro"
-  effectDescription: "S\xF3 feij\xE3o puro feij\xE3o puro feij\xE3o puro feij\xE3o
-    puro feij\xE3o puro feij\xE3o puro feij\xE3o puro feij\xE3o puro feij\xE3o puro"
-  poder: 1
+  nome: Historico de Atleta
+  effectDescription: Eu tenho historico de atleta, eu sou imbroxavel, talkey?
+  poder: 100
   isEspecial: 0
-  alvoDoEfeito: 1
-  usosAtuais: 29
-  usosMaximos: 30
+  alvoDoEfeito: 0
+  usosAtuais: 2
+  usosMaximos: 5
   proprioTransform: {fileID: 0}
   inimigoTransform: {fileID: 0}
   animSiMesmo: {fileID: 0}

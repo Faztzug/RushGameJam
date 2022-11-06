@@ -45,7 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nome: "Tr\xEAs Oit\xE3o"
+  effectDescription: Tei tei tei tei tei Talkey!
   poder: 150
+  isEspecial: 1
   alvoDoEfeito: 0
   usosAtuais: 5
   usosMaximos: 6
@@ -53,4 +55,3 @@ MonoBehaviour:
   inimigoTransform: {fileID: 0}
   animSiMesmo: {fileID: 0}
   animNoInimigo: {fileID: 0}
-  waitSeconds: 2
