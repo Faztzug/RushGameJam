@@ -1080,6 +1080,7 @@ GameObject:
   - component: {fileID: 970990864}
   - component: {fileID: 970990863}
   - component: {fileID: 970990865}
+  - component: {fileID: 970990866}
   m_Layer: 5
   m_Name: Lula
   m_TagString: Untagged
@@ -1172,6 +1173,26 @@ MonoBehaviour:
   actionsHolder: {fileID: 1805907838}
   moveToUsePrefab: {fileID: 4623153291549177913, guid: 44ec91ae360b95f41b958e764b44ff64, type: 3}
   HPText: {fileID: 365410219}
+--- !u!95 &970990866
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970990861}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 59bd144a9c09f0649b2c33c3132068e0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1038857892
 GameObject:
   m_ObjectHideFlags: 0
