@@ -23,7 +23,7 @@ SpriteAtlas:
     platformSettings:
     - serializedVersion: 3
       m_BuildTarget: DefaultTexturePlatform
-      m_MaxTextureSize: 1024
+      m_MaxTextureSize: 2048
       m_ResizeAlgorithm: 0
       m_TextureFormat: -1
       m_TextureCompression: 0
@@ -35,7 +35,7 @@ SpriteAtlas:
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
       serializedVersion: 2
-      padding: 4
+      padding: 8
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 0
@@ -45,6 +45,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: 3ac396c53efe97a4f91fb23fe3196e4f, type: 3}
+    - {fileID: 2800000, guid: a94c8f6a53aa57e409f751add2b81dd8, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -58,6 +59,7 @@ SpriteAtlas:
   - {fileID: 488983274, guid: 3ac396c53efe97a4f91fb23fe3196e4f, type: 3}
   - {fileID: -456754031, guid: 3ac396c53efe97a4f91fb23fe3196e4f, type: 3}
   - {fileID: -1277880946, guid: 3ac396c53efe97a4f91fb23fe3196e4f, type: 3}
+  - {fileID: -312966966, guid: a94c8f6a53aa57e409f751add2b81dd8, type: 3}
   m_PackedSpriteNamesToIndex:
   - FakeNews_1
   - FakeNews_2
@@ -67,6 +69,7 @@ SpriteAtlas:
   - BolsoSprite_Dano
   - BolsoSprite_Idle
   - BolsoSprite_Falando
+  - ChoroLivre_0
   m_RenderDataMap: {}
   m_Tag: Bolso
   m_IsVariant: 0

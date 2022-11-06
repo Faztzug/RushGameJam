@@ -644,7 +644,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &272704347
 GameObject:
@@ -1173,7 +1173,6 @@ MonoBehaviour:
   actionsHolder: {fileID: 1805907838}
   moveToUsePrefab: {fileID: 4623153291549177913, guid: 44ec91ae360b95f41b958e764b44ff64, type: 3}
   HPText: {fileID: 365410219}
-  imunidade: 0
 --- !u!1 &1041483982
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,7 +1325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 454701831149507822, guid: 237b4920d1c14d544a2d896309733994, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 454701831149507822, guid: 237b4920d1c14d544a2d896309733994, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1429,7 +1428,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet,
-    lorem eget pharetra pulvinar, purus massa
+    lorem eget pharetra pulvinar, purus massa mattis ante, interdum elementum nunc
+    tellus id mauris.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e9f9ba82b8a695b43ad332c1a75d99d6, type: 2}
   m_sharedMaterial: {fileID: -5139215698420869362, guid: e9f9ba82b8a695b43ad332c1a75d99d6, type: 2}
@@ -1456,10 +1456,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68
-  m_fontSizeBase: 68
+  m_fontSize: 53.55
+  m_fontSizeBase: 78
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 432.86
   m_fontStyle: 0
@@ -1775,6 +1775,7 @@ GameObject:
   - component: {fileID: 2002643638}
   - component: {fileID: 2002643637}
   - component: {fileID: 2002643639}
+  - component: {fileID: 2002643640}
   m_Layer: 5
   m_Name: Bolsonaro
   m_TagString: Untagged
@@ -1867,7 +1868,26 @@ MonoBehaviour:
   actionsHolder: {fileID: 1805907838}
   moveToUsePrefab: {fileID: 4623153291549177913, guid: 44ec91ae360b95f41b958e764b44ff64, type: 3}
   HPText: {fileID: 113980125}
-  imunidade: 0
+--- !u!95 &2002643640
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002643635}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bae0af04c79b2d34ca3095b2162a3ff4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2055433377
 GameObject:
   m_ObjectHideFlags: 0
