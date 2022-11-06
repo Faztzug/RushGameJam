@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class CandidatoInGame : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class CandidatoInGame : MonoBehaviour
     public bool imunidade;
     [HideInInspector] public AudioSource audioSource;
     [HideInInspector] public Animator animator;
+    public Image HPBar;
 
     void Start()
     {
@@ -54,6 +56,7 @@ public class CandidatoInGame : MonoBehaviour
         {
             
         }
+        UpdateHealthBar();
     }
 
     public void IAMove()
@@ -78,11 +81,20 @@ public class CandidatoInGame : MonoBehaviour
             animator.SetTrigger("Dano");
             data.somAoLevarDano.PlayOn(audioSource);
         }
+        UpdateHealthBar();
     }
     public void GainHealth(int value)
     {
         currentHP += value;
         if(currentHP > data.maxHP) currentHP = data.maxHP;
         HPText.text = "HP " + currentHP+"/"+data.maxHP;
+        UpdateHealthBar();
+    }
+
+    private void UpdateHealthBar()
+    {
+        float porcent = (float)currentHP / (float)data.maxHP;
+        Debug.Log("porcent " + porcent);
+        HPBar.fillAmount = porcent;
     }
 }

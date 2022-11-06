@@ -14,14 +14,14 @@ public class SelectCandidato : MonoBehaviour
     public void SelectLula()
     {
         GameState.candidato = Candidato.Lula;
-        somAoEscolherBolsonaro.PlayOn(audioSource);
+        somAoEscolherLula.PlayOn(audioSource);
         SceneManager.LoadScene("Luta");
     }
 
     public void SelectBolsonaro()
     {
         GameState.candidato = Candidato.Bolsonaro;
-        somAoEscolherLula.PlayOn(audioSource);
+        somAoEscolherBolsonaro.PlayOn(audioSource);
         SceneManager.LoadScene("Luta");
     }
 
