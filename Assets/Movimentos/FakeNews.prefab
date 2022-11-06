@@ -49,9 +49,9 @@ MonoBehaviour:
   poder: 100
   isEspecial: 0
   alvoDoEfeito: 0
-  usosAtuais: 0
+  usosAtuais: 22
   usosMaximos: 22
   proprioTransform: {fileID: 0}
   inimigoTransform: {fileID: 0}
   animSiMesmo: {fileID: 0}
-  animNoInimigo: {fileID: 0}
+  animNoInimigo: {fileID: 7721451661446596555, guid: d55552f65a49bba4998c862c3c4bc4d5, type: 3}

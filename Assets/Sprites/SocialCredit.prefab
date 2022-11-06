@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7721451661446596555
+--- !u!1 &4945689300513626974
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7625147212155663824}
-  - component: {fileID: 7721451661446596597}
-  - component: {fileID: 7721451661446596554}
+  - component: {fileID: 8934216101650964218}
+  - component: {fileID: 3276478974541185246}
+  - component: {fileID: 1279868949079151115}
   m_Layer: 0
-  m_Name: FakeNews_1
+  m_Name: SocialCredit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &7625147212155663824
+--- !u!224 &8934216101650964218
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7721451661446596555}
+  m_GameObject: {fileID: 4945689300513626974}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -35,16 +35,16 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0.875, y: 1.7083334}
+  m_AnchoredPosition: {x: -4.04, y: -3.07}
+  m_SizeDelta: {x: 1.0416666, y: 0.875}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!212 &7721451661446596597
+--- !u!212 &3276478974541185246
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7721451661446596555}
+  m_GameObject: {fileID: 4945689300513626974}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -79,28 +79,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -949411227, guid: 3ac396c53efe97a4f91fb23fe3196e4f, type: 3}
+  m_Sprite: {fileID: -603544870, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.875, y: 1.7083334}
+  m_Size: {x: 1.0416666, y: 0.875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &7721451661446596554
+--- !u!95 &1279868949079151115
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7721451661446596555}
+  m_GameObject: {fileID: 4945689300513626974}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0367232561839924abf0d7649ab2106b, type: 2}
+  m_Controller: {fileID: 9100000, guid: d340e74d0e68034408db72616a99b373, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

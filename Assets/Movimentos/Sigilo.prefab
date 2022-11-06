@@ -54,4 +54,4 @@ MonoBehaviour:
   proprioTransform: {fileID: 0}
   inimigoTransform: {fileID: 0}
   animSiMesmo: {fileID: 0}
-  animNoInimigo: {fileID: 0}
+  animNoInimigo: {fileID: 5057092222184582925, guid: 2ee68c0f1c6ac2e4d9fdc5703eccdc82, type: 3}
