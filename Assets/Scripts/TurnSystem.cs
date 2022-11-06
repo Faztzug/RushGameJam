@@ -25,7 +25,7 @@ public class TurnSystem : MonoBehaviour
     {
         actionsHolder.SetActive(false);
         textLog.text = moveText;
-        return Task.Delay(4000);
+        return Task.Delay(3000);
     }
 
     public Task MoveResult(string moveResult)

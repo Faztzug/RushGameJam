@@ -69,12 +69,12 @@ public class Movimentos : MonoBehaviour
         if(animSiMesmo) 
         {
             var anim = GameObject.Instantiate(animSiMesmo, proprioTransform.position, Quaternion.identity);
-            Destroy(anim, 10f);
+            Destroy(anim, 6f);
         }
         if(animNoInimigo) 
         {
             var anim = GameObject.Instantiate(animNoInimigo, inimigoTransform.position, Quaternion.identity);
-            Destroy(anim, 10f);
+            Destroy(anim, 6f);
         }
         usosAtuais--;
     }
