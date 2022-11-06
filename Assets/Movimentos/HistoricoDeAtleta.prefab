@@ -44,14 +44,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51dc58f84abf6f741b2bbd429e1f652a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nome: Historico de Atleta
+  nome: "Histor\xEDco de Atleta"
   effectDescription: Eu tenho historico de atleta, eu sou imbroxavel, talkey?
   poder: 100
   isEspecial: 0
   alvoDoEfeito: 0
-  usosAtuais: 2
+  usosAtuais: 5
   usosMaximos: 5
   proprioTransform: {fileID: 0}
   inimigoTransform: {fileID: 0}
   animSiMesmo: {fileID: 4857347268191408916, guid: ed4153f30ac4986498d747b5affcfd65, type: 3}
   animNoInimigo: {fileID: 0}
+  tocarEsseSomAoUsar:
+    clip: {fileID: 0}
+    name: 
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    audioSource: {fileID: 0}

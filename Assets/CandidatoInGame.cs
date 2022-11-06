@@ -21,6 +21,8 @@ public class CandidatoInGame : MonoBehaviour
     public GameObject moveToUsePrefab;
     public TextMeshProUGUI HPText;
     public bool imunidade;
+    [HideInInspector] public AudioSource audioSource;
+    [HideInInspector] public Animator animator;
 
     void Start()
     {
@@ -34,6 +36,8 @@ public class CandidatoInGame : MonoBehaviour
         defesa = data.defesa;
         defesaEspecial = data.defesaEspecial;
         movimentos = data.movimentos;
+        audioSource = GetComponent<AudioSource>();
+        animator = GetComponent<Animator>();
 
         foreach (var move in data.movimentos) move.SetUses();
 
@@ -69,6 +73,7 @@ public class CandidatoInGame : MonoBehaviour
         if(value > 0 || imunidade) value = 0;
         currentHP += value;
         HPText.text = "HP " + currentHP+"/"+data.maxHP;
+        animator.SetTrigger("Dano");
     }
     public void GainHealth(int value)
     {

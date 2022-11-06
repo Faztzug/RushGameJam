@@ -28,8 +28,8 @@ MonoBehaviour:
   movimentos:
   - {fileID: 6253830855080402002, guid: 6ea6541949c6e844081569ea0fd43dd7, type: 3}
   - {fileID: 3593144130064383139, guid: 268ae51324176ee4f89f4251c0e4c047, type: 3}
-  - {fileID: 6905723355070635776, guid: 1bf2da39b44fc8044bdf1ea892348d5d, type: 3}
   - {fileID: -3097318799340137335, guid: e9af03b79120f9747a14f8bf797b4192, type: 3}
+  - {fileID: 6905723355070635776, guid: 1bf2da39b44fc8044bdf1ea892348d5d, type: 3}
   - {fileID: -1439831210112603205, guid: 3befc386558d1e6429653b5d601e29e3, type: 3}
   - {fileID: -8622168803869611318, guid: c5d2d0023051b0348a587f4e912e21b4, type: 3}
   fraseDeInicio: 
