@@ -6,6 +6,7 @@ using UnityEngine;
 public class CandidatoData : ScriptableObject
 {
     public string nome;
+    public Candidato candidatoEnum;
     public string partido;
     public int numeroDoPartido;
     public Sprite spriteDeFrente;

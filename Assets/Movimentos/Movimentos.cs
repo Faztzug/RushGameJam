@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Threading.Tasks;
 
 public enum Alvo
 {
@@ -20,8 +21,9 @@ public class Movimentos : MonoBehaviour
     public GameObject animSiMesmo;
     public GameObject animNoInimigo;
     protected CandidatoInGame target;
+    public float waitSeconds = 2f;
 
-    void Start()
+    public void SetUses()
     {
         usosAtuais = usosMaximos;
     }

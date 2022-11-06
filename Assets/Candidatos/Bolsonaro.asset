@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Bolsonaro
   m_EditorClassIdentifier: 
   nome: Bolsonaro
+  candidatoEnum: 2
   partido: PL
   numeroDoPartido: 22
   spriteDeFrente: {fileID: 0}

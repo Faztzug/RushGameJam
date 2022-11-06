@@ -28,6 +28,7 @@ public class MoveToUse : MonoBehaviour
         else if(candidato.nome == "Bolsonaro")
         GameState.bolsonaroMove = movimento;
         else Debug.LogError("NÂO TEM CANDITADO COM ESSE NOME");
+        GameState.FinishMovesChoice();
     }
 
     void Update()
@@ -35,6 +36,7 @@ public class MoveToUse : MonoBehaviour
         if(movimento != null)
         {
             if(movimento.usosAtuais <= 0) button.interactable = false;
+            else button.interactable = true;
         }
     }
 }

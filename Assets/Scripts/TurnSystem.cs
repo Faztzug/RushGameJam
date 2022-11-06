@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using System.Threading.Tasks;
 
 public class TurnSystem : MonoBehaviour
 {
     public int currentTurn;
+    public GameObject actionsHolder;
+    public TextMeshProUGUI textLog;
 
     void Start()
     {
@@ -13,20 +17,28 @@ public class TurnSystem : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetButtonDown("Fire1")) NextTurn();
+        //if(Input.GetButtonDown("Fire1")) NextTurn();
     }
 
-    public void DamageStep()
+    public Task UsedMove(string moveText)
     {
-        //compara as iniciativas, quem tiver mais vai primeiro
-        //Executa os ataques selecionados pela ordem de iniciativa
+        actionsHolder.SetActive(false);
+        textLog.text = moveText;
+        return Task.Delay(1000);
+    }
 
-        NextTurn();
+    public Task MoveResult(string moveResult)
+    {
+        
+        textLog.text = moveResult;
+        return Task.Delay(1000);
     }
 
     public void NextTurn()
     {
         currentTurn++;
         Debug.Log("Next Turn: " + currentTurn);
+        textLog.text = "";
+        actionsHolder.SetActive(true);
     }
 }

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Lula
   m_EditorClassIdentifier: 
   nome: Lula
+  candidatoEnum: 1
   partido: PT
   numeroDoPartido: 13
   spriteDeFrente: {fileID: 0}
