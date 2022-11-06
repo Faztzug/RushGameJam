@@ -1775,6 +1775,7 @@ GameObject:
   - component: {fileID: 2002643638}
   - component: {fileID: 2002643637}
   - component: {fileID: 2002643639}
+  - component: {fileID: 2002643640}
   m_Layer: 5
   m_Name: Bolsonaro
   m_TagString: Untagged
@@ -1867,6 +1868,26 @@ MonoBehaviour:
   actionsHolder: {fileID: 1805907838}
   moveToUsePrefab: {fileID: 4623153291549177913, guid: 44ec91ae360b95f41b958e764b44ff64, type: 3}
   HPText: {fileID: 113980125}
+--- !u!95 &2002643640
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002643635}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bae0af04c79b2d34ca3095b2162a3ff4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2055433377
 GameObject:
   m_ObjectHideFlags: 0
