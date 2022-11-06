@@ -48,10 +48,18 @@ MonoBehaviour:
   effectDescription: Lula censura os ataques de Bolsonaro
   poder: 100
   isEspecial: 0
-  alvoDoEfeito: 1
-  usosAtuais: 13
+  alvoDoEfeito: 0
+  usosAtuais: 12
   usosMaximos: 13
   proprioTransform: {fileID: 0}
   inimigoTransform: {fileID: 0}
   animSiMesmo: {fileID: 0}
   animNoInimigo: {fileID: 1672989782974924828, guid: 0a6e39868b9ff1b4e912a34f04b9b512, type: 3}
+  tocarEsseSomAoUsar:
+    clip: {fileID: 0}
+    name: 
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    audioSource: {fileID: 0}

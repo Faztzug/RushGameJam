@@ -48,7 +48,7 @@ MonoBehaviour:
   effectDescription: "com seu sigilo Bolsonaro \xE9 imune"
   poder: 100
   isEspecial: 0
-  alvoDoEfeito: 1
+  alvoDoEfeito: 0
   usosAtuais: 22
   usosMaximos: 22
   proprioTransform: {fileID: 0}
