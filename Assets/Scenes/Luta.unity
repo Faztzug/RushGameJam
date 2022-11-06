@@ -1002,7 +1002,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -975046712, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  m_Sprite: {fileID: 1606458364, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1049,6 +1049,7 @@ MonoBehaviour:
   HPText: {fileID: 365410219}
   imunidade: 0
   audioSource: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!95 &970990866
 Animator:
   serializedVersion: 4
@@ -1863,6 +1864,7 @@ MonoBehaviour:
   HPText: {fileID: 113980125}
   imunidade: 0
   audioSource: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!95 &2002643640
 Animator:
   serializedVersion: 4
