@@ -19,15 +19,18 @@ public class SetGameOverScreen : MonoBehaviour
     public TextMeshProUGUI textMesh;
     public CandidatoData lulaData;
     public CandidatoData bolsonaroData;
+    private AudioSource audioSource;
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         if(GameState.CandidatoVencedor == Candidato.Lula)
         {
             background.sprite = lulaBG;
             bolsonaroPortrait.sprite = bolsonaroPerdeu;
             lulaPortrait.sprite = lulaVenceu;
             textMesh.text = lulaData.fraseDeVitoria;
+            lulaData.somAoVencer.PlayOn(audioSource);
         }
         else
         {
@@ -35,6 +38,7 @@ public class SetGameOverScreen : MonoBehaviour
             bolsonaroPortrait.sprite = bolsonaroVenceu;
             lulaPortrait.sprite = lulaPerdeu;
             textMesh.text = bolsonaroData.fraseDeVitoria;
+            bolsonaroData.somAoVencer.PlayOn(audioSource);
         }
     }
 

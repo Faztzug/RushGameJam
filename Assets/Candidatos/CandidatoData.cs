@@ -21,5 +21,6 @@ public class CandidatoData : ScriptableObject
     public List<Movimentos> movimentos;
     public string fraseDeInicio;
     public string fraseDeVitoria;
-    public List<Sound> soms;
+    public Sound somAoLevarDano;
+    public Sound somAoVencer;
 }
