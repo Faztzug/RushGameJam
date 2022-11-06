@@ -49,14 +49,14 @@ MonoBehaviour:
   poder: 100
   isEspecial: 0
   alvoDoEfeito: 0
-  usosAtuais: 22
+  usosAtuais: 20
   usosMaximos: 22
   proprioTransform: {fileID: 0}
   inimigoTransform: {fileID: 0}
   animSiMesmo: {fileID: 0}
   animNoInimigo: {fileID: 7721451661446596555, guid: d55552f65a49bba4998c862c3c4bc4d5, type: 3}
   tocarEsseSomAoUsar:
-    clip: {fileID: 8300000, guid: 8588e6f8e9e4ded49b87fc39d6048caa, type: 3}
+    clip: {fileID: 0}
     name: 
     volume: 1
     pitch: 1

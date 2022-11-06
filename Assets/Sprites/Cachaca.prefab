@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6415271984704819136}
   - component: {fileID: 6415271984704819143}
   m_Layer: 0
-  m_Name: Combo_6
+  m_Name: Cachaca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
