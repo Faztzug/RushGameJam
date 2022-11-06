@@ -10,5 +10,6 @@ public class TresOitao : Movimentos
         if(usosAtuais <= 0) return;
         base.MoveEffect(candidato);
         target.DamageHealth(-damage, isEspecial);
+        candidato.animator.SetTrigger("Ataque");
     }
 }

@@ -10,6 +10,7 @@ public class Picanha : Movimentos
         if(usosAtuais <= 0) return;
         base.MoveEffect(candidato);
         target.DamageHealth(-damage, isEspecial);
+        candidato.animator.SetTrigger("Ataque");
         target.iniciativa -= 1;
     }
 }

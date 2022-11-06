@@ -9,6 +9,7 @@ public class HistoricoDeAtleta : Movimentos
     {
         if(usosAtuais <= 0) return;
         base.MoveEffect(candidato);
+        candidato.animator.SetTrigger("Ataque");
         candidato.inimigo.DamageHealth(-candidato.forca);
         target.forca -= 2;
     }

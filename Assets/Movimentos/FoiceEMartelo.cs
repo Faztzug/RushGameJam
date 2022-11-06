@@ -9,7 +9,7 @@ public class FoiceEMartelo : Movimentos
     {
         if(usosAtuais <= 0) return;
         base.MoveEffect(candidato);
-        Debug.Log("Foice dmg " + -damage);
+        candidato.animator.SetTrigger("Ataque");
         target.DamageHealth(-damage, isEspecial);
     }
 }

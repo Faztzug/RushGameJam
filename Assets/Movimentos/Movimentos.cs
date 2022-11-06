@@ -55,7 +55,7 @@ public class Movimentos : MonoBehaviour
 
     public virtual void MoveEffect(CandidatoInGame candidato) 
     { 
-        if(this == null) return;
+        if(this == null || candidato == null) return;
         proprioTransform = candidato.transform;
         inimigoTransform = candidato.inimigo.transform;
         if(alvoDoEfeito == Alvo.SiMesmo) target = candidato;
