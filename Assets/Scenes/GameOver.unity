@@ -246,7 +246,7 @@ MonoBehaviour:
   bolsonaroBG: {fileID: -1230239604, guid: 17064c039eb9675438475a9ffbe388ed, type: 3}
   lulaPortrait: {fileID: 704533325}
   lulaVenceu: {fileID: -248476725, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
-  lulaPerdeu: {fileID: -292188237, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  lulaPerdeu: {fileID: 1149617866, guid: ed03ef97deb824148a0fd64404b77235, type: 3}
   bolsonaroPortrait: {fileID: 528635334}
   bolsonaroVenceu: {fileID: -1463877530, guid: 3ac396c53efe97a4f91fb23fe3196e4f, type: 3}
   bolsonaroPerdeu: {fileID: -312966966, guid: a94c8f6a53aa57e409f751add2b81dd8, type: 3}
