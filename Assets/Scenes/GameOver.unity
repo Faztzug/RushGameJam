@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 46659190}
   - component: {fileID: 46659189}
   - component: {fileID: 46659193}
+  - component: {fileID: 46659194}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -244,14 +245,110 @@ MonoBehaviour:
   lulaBG: {fileID: 1508440215, guid: 17064c039eb9675438475a9ffbe388ed, type: 3}
   bolsonaroBG: {fileID: -1230239604, guid: 17064c039eb9675438475a9ffbe388ed, type: 3}
   lulaPortrait: {fileID: 704533325}
-  lulaVenceu: {fileID: -957264755, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
-  lulaPerdeu: {fileID: 794151184, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  lulaVenceu: {fileID: -248476725, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  lulaPerdeu: {fileID: -292188237, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   bolsonaroPortrait: {fileID: 528635334}
   bolsonaroVenceu: {fileID: -1463877530, guid: 3ac396c53efe97a4f91fb23fe3196e4f, type: 3}
   bolsonaroPerdeu: {fileID: -312966966, guid: a94c8f6a53aa57e409f751add2b81dd8, type: 3}
   textMesh: {fileID: 1786758253}
   lulaData: {fileID: 11400000, guid: 454b5baaf4c72db4ba055736ce9acbc4, type: 2}
   bolsonaroData: {fileID: 11400000, guid: a73a4a9512e12e64a9b13a8be881e846, type: 2}
+--- !u!82 &46659194
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46659188}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 100
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &272704347
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,7 +847,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -957264755, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
+  m_Sprite: {fileID: -248476725, guid: e72c11a241ede8248a74e841fb7e3584, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
