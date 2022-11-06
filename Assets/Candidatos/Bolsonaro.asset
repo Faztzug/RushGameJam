@@ -34,4 +34,19 @@ MonoBehaviour:
   - {fileID: -8622168803869611318, guid: 4093e98973563e8498c9184e392c2ef9, type: 3}
   fraseDeInicio: 
   fraseDeVitoria: "Nossa bandeira jamais ser\xE1 vermelha, Talkey petralhada?"
-  soms: []
+  somAoLevarDano:
+    clip: {fileID: 8300000, guid: ebfee3536a29f554194b7bb4d7d38036, type: 3}
+    name: 
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    audioSource: {fileID: 0}
+  somAoVencer:
+    clip: {fileID: 8300000, guid: 0b5170eec6970e4408eb31aa58014ad1, type: 3}
+    name: 
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    audioSource: {fileID: 0}

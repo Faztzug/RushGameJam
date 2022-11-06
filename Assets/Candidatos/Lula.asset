@@ -34,4 +34,19 @@ MonoBehaviour:
   - {fileID: -8622168803869611318, guid: c5d2d0023051b0348a587f4e912e21b4, type: 3}
   fraseDeInicio: 
   fraseDeVitoria: "Fa\xE7a o L, fa\xE7a o L imediatamente meu camarada!"
-  soms: []
+  somAoLevarDano:
+    clip: {fileID: 8300000, guid: f5337f1d444599145be24b7b76c6ff7e, type: 3}
+    name: 
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    audioSource: {fileID: 0}
+  somAoVencer:
+    clip: {fileID: 0}
+    name: 
+    volume: 1
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    audioSource: {fileID: 0}

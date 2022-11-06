@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somNoHoverDoPersonagem:
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 7941fd97490c04e418239d68e3a1d419, type: 3}
     name: 
     volume: 1
     pitch: 1
@@ -327,7 +327,7 @@ MonoBehaviour:
     playOnAwake: 0
     audioSource: {fileID: 0}
   somAoEscolherBolsonaro:
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 29e0b692957b0b944811299217c5d29f, type: 3}
     name: 
     volume: 1
     pitch: 1
@@ -335,9 +335,9 @@ MonoBehaviour:
     playOnAwake: 0
     audioSource: {fileID: 0}
   somAoEscolherLula:
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: d35d670a4089c9644b0e770dbbfe3207, type: 3}
     name: 
-    volume: 1
+    volume: 0.87
     pitch: 1
     loop: 0
     playOnAwake: 0
