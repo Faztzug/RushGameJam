@@ -11,5 +11,6 @@ public class FeijaoPuro : Movimentos
         base.MoveEffect(candidato);
         candidato.inimigo.DamageHealth(-candidato.forca);
         target.forca += poder;
+        candidato.animator.SetBool("Bombado", true);
     }
 }

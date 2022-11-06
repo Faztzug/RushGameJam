@@ -22,6 +22,7 @@ public class CandidatoInGame : MonoBehaviour
     public TextMeshProUGUI HPText;
     public bool imunidade;
     [HideInInspector] public AudioSource audioSource;
+    [HideInInspector] public Animator animator;
 
     void Start()
     {
@@ -36,6 +37,7 @@ public class CandidatoInGame : MonoBehaviour
         defesaEspecial = data.defesaEspecial;
         movimentos = data.movimentos;
         audioSource = GetComponent<AudioSource>();
+        animator = GetComponent<Animator>();
 
         foreach (var move in data.movimentos) move.SetUses();
 
