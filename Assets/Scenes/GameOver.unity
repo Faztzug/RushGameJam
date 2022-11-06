@@ -253,6 +253,7 @@ MonoBehaviour:
   textMesh: {fileID: 1786758253}
   lulaData: {fileID: 11400000, guid: 454b5baaf4c72db4ba055736ce9acbc4, type: 2}
   bolsonaroData: {fileID: 11400000, guid: a73a4a9512e12e64a9b13a8be881e846, type: 2}
+  faixa: {fileID: 435073860}
 --- !u!82 &46659194
 AudioSource:
   m_ObjectHideFlags: 0
@@ -636,6 +637,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 400517759}
   m_CullTransparentMesh: 1
+--- !u!95 &435073860 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2080560982933079543, guid: 048b5cd2346ad8441bd9591d466ecd15, type: 3}
+  m_PrefabInstance: {fileID: 1522293043}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &466929493
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,7 +895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 454701831149507821, guid: 237b4920d1c14d544a2d896309733994, type: 3}
       propertyPath: candidatoVencedor
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 454701831149507821, guid: 237b4920d1c14d544a2d896309733994, type: 3}
       propertyPath: selectedCandidato

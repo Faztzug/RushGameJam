@@ -20,6 +20,7 @@ public class SetGameOverScreen : MonoBehaviour
     public CandidatoData lulaData;
     public CandidatoData bolsonaroData;
     private AudioSource audioSource;
+    public Animator faixa;
 
     void Start()
     {
@@ -31,6 +32,7 @@ public class SetGameOverScreen : MonoBehaviour
             lulaPortrait.sprite = lulaVenceu;
             textMesh.text = lulaData.fraseDeVitoria;
             lulaData.somAoVencer.PlayOn(audioSource);
+            faixa.SetBool("Lula", true);
         }
         else
         {
@@ -39,6 +41,7 @@ public class SetGameOverScreen : MonoBehaviour
             lulaPortrait.sprite = lulaPerdeu;
             textMesh.text = bolsonaroData.fraseDeVitoria;
             bolsonaroData.somAoVencer.PlayOn(audioSource);
+            faixa.SetBool("Bolsonaro", true);
         }
     }
 
