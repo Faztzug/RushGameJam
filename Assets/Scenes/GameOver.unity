@@ -254,6 +254,8 @@ MonoBehaviour:
   lulaData: {fileID: 11400000, guid: 454b5baaf4c72db4ba055736ce9acbc4, type: 2}
   bolsonaroData: {fileID: 11400000, guid: a73a4a9512e12e64a9b13a8be881e846, type: 2}
   faixa: {fileID: 435073860}
+  musicaLula: {fileID: 1825517005}
+  musicaBolsonaro: {fileID: 490298774}
 --- !u!82 &46659194
 AudioSource:
   m_ObjectHideFlags: 0
@@ -865,6 +867,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466929493}
   m_CullTransparentMesh: 1
+--- !u!1001 &490298773
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5491243626734541849, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5491243626734541849, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5491243626734541849, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5491243626734541849, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5491243626734541849, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5491243626734541849, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5491243626734541849, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5491243626734541849, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5491243626734541849, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5491243626734541849, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5491243626734541849, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5491243626734541854, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 163f374d30696f5468f94afef1fab1dd, type: 3}
+    - target: {fileID: 5491243626734541855, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+      propertyPath: m_Name
+      value: MusicaBolsonaro
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+--- !u!1 &490298774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5491243626734541855, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+  m_PrefabInstance: {fileID: 490298773}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &528635332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,7 +1109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 454701831149507821, guid: 237b4920d1c14d544a2d896309733994, type: 3}
       propertyPath: candidatoVencedor
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 454701831149507821, guid: 237b4920d1c14d544a2d896309733994, type: 3}
       propertyPath: selectedCandidato
@@ -1106,7 +1174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7756653183441581096, guid: 048b5cd2346ad8441bd9591d466ecd15, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7756653183441581096, guid: 048b5cd2346ad8441bd9591d466ecd15, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1295,6 +1363,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1786758251}
   m_CullTransparentMesh: 1
+--- !u!1 &1825517005 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5491243626734541855, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+  m_PrefabInstance: {fileID: 5491243626953373309}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1979341682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,9 +1497,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5491243626734541854, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b9efa510e31fd35449b48e596d3f8de3, type: 3}
     - target: {fileID: 5491243626734541855, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
       propertyPath: m_Name
-      value: Musica
+      value: MusicaLula
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9931814e465d2564b9d5609d402ad07c, type: 3}
