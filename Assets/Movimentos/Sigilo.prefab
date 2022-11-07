@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nome: Sigilo
-  effectDescription: "com seu sigilo Bolsonaro \xE9 imune"
+  effectDescription: "com seu sigilo Bolsonaro \xE9 imune a ataques"
   poder: 100
   isEspecial: 0
   alvoDoEfeito: 1

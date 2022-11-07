@@ -45,7 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nome: Credito Social
-  effectDescription: +1300 Credito social meu camarada
+  effectDescription: "+1300 Credito social meu camarada\nDefesa de Lula \xE9 refor\xE7ada
+    pelo governo Comunista Chin\xEAs"
   poder: 100
   isEspecial: 0
   alvoDoEfeito: 1

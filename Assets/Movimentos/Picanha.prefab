@@ -45,7 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nome: Pica-nha
-  effectDescription: O povo vai volta a comer picanha meu camarada!
+  effectDescription: 'O povo vai volta a comer picanha meu camarada!
+
+    Iniciativa
+    de Bolsonaro cai'
   poder: 100
   isEspecial: 0
   alvoDoEfeito: 0

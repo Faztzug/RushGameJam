@@ -45,11 +45,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nome: "Histor\xEDco de Atleta"
-  effectDescription: Eu tenho historico de atleta, eu sou imbroxavel, talkey?
+  effectDescription: "Eu tenho historico de atleta, eu sou imbroxavel, talkey?\nA
+    for\xE7a de Lula cai ap\xF3s isso"
   poder: 100
   isEspecial: 0
   alvoDoEfeito: 0
-  usosAtuais: 5
+  usosAtuais: 4
   usosMaximos: 5
   proprioTransform: {fileID: 0}
   inimigoTransform: {fileID: 0}

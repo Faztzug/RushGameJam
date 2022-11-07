@@ -45,11 +45,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nome: Fake News
-  effectDescription: "Se t\xE1 na internet ent\xE3o \xE9 verdade talkey?"
+  effectDescription: "Se t\xE1 na internet ent\xE3o \xE9 verdade talkey?\nDefesa
+    de Lula \xE9 rebaixada"
   poder: 100
   isEspecial: 0
   alvoDoEfeito: 0
-  usosAtuais: 21
+  usosAtuais: 22
   usosMaximos: 22
   proprioTransform: {fileID: 0}
   inimigoTransform: {fileID: 0}
