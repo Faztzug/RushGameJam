@@ -11,6 +11,11 @@ public class SelectCandidato : MonoBehaviour
     public Sound somAoEscolherLula;
     public AudioSource audioSource;
 
+    private void Start() 
+    {
+        audioSource = GameState.GetAudioSource;
+    }
+
     public void SelectLula()
     {
         GameState.candidato = Candidato.Lula;

@@ -30,6 +30,9 @@ public class GameState : MonoBehaviour
     public static Movimentos bolsonaroMove;
     public static CandidatoInGame Lula;
     public static CandidatoInGame Bolsonaro;
+    
+    private AudioSource audioSource;
+    public static AudioSource GetAudioSource { get => gameState.audioSource; }
 
     private void Awake() 
     {
@@ -40,6 +43,7 @@ public class GameState : MonoBehaviour
             return;
         }
         gameState = this;
+        audioSource = GetComponent<AudioSource>();
         DontDestroyOnLoad(this.gameObject);
     }
 
