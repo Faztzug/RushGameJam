@@ -29,6 +29,13 @@ public class SelectCandidato : MonoBehaviour
         somAoEscolherBolsonaro.PlayOn(audioSource);
         SceneManager.LoadScene("Luta");
     }
+    
+    public void SelectNulo()
+    {
+        GameState.candidato = Candidato.NULL;
+        somNoHoverDoPersonagem.PlayOn(audioSource);
+        SceneManager.LoadScene("Luta");
+    }
 
     public void ButtonHover()
     {
